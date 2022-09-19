@@ -13,7 +13,7 @@ m = 0
 search = input()
 u = []
 
-with open('Lab-1/books.csv', 'r') as csvfile, open('generator.txt', 'w') as twenty:
+with open('books.csv', 'r') as csvfile, open('generator.txt', 'w') as twenty:
     #блок, отвечающий за названия больше 30 символов
     for row in csv.reader(csvfile, delimiter = ';'):
         count+=1
